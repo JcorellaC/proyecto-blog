@@ -1,0 +1,293 @@
+/* line 2, ../sass/partials/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/partials/_base.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 14, ../sass/partials/_base.scss */
+body {
+  font-family: Arial;
+}
+
+/* line 19, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: 00A0A9;
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+/* line 26, ../sass/partials/_base.scss */
+h1 {
+  margin: 10px 10%;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+/* line 30, ../sass/partials/_base.scss */
+h1 a {
+  color: white;
+}
+
+/* line 36, ../sass/partials/_base.scss */
+p {
+  font-size: 17px;
+  font-size: 1.7rem;
+}
+
+/* line 40, ../sass/partials/_base.scss */
+.orange {
+  color: #ff7b1a;
+}
+
+/* line 44, ../sass/partials/_base.scss */
+article {
+  margin-bottom: 15px;
+  padding: 0 0 30px 0;
+  border-bottom: 2px solid #999;
+}
+/* line 48, ../sass/partials/_base.scss */
+article h2 {
+  font-size: 20px;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+/* line 53, ../sass/partials/_base.scss */
+article p {
+  margin: 0 0 10px 0;
+}
+
+/* line 2, ../sass/partials/_layout.scss */
+header {
+  overflow: hidden;
+  padding: 2px 0 122px 0;
+}
+
+/* line 7, ../sass/partials/_layout.scss */
+.content {
+  padding: 0 10%;
+  background: white;
+}
+/* line 10, ../sass/partials/_layout.scss */
+.content div {
+  box-sizing: border-box;
+}
+
+/* line 15, ../sass/partials/_layout.scss */
+.more-news {
+  display: inline-block;
+  float: right;
+  width: 40%;
+}
+
+/* line 21, ../sass/partials/_layout.scss */
+footer {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 26, ../sass/partials/_layout.scss */
+.suscription {
+  width: 380px;
+}
+
+/* line 1, ../sass/partials/modules/_news.scss */
+.news {
+  background: white;
+  display: inline-block;
+  float: left;
+  padding: 29px 4%;
+  margin: -110px 0;
+  width: 60%;
+}
+
+/* line 1, ../sass/partials/modules/_menu.scss */
+.menu {
+  margin: 0 10%;
+}
+/* line 4, ../sass/partials/modules/_menu.scss */
+.menu li {
+  float: left;
+  display: inline;
+  margin: 0 1%;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #40bdc0;
+}
+/* line 12, ../sass/partials/modules/_menu.scss */
+.menu a {
+  color: white;
+}
+
+/* line 1, ../sass/partials/modules/_header.scss */
+header {
+  background: #00a0a9;
+}
+
+/* line 5, ../sass/partials/modules/_header.scss */
+.social-networks {
+  margin-top: -100px;
+  float: right;
+  width: 36%;
+}
+/* line 10, ../sass/partials/modules/_header.scss */
+.social-networks ul {
+  margin-left: 105px;
+}
+/* line 13, ../sass/partials/modules/_header.scss */
+.social-networks h2 {
+  color: white;
+  margin-bottom: -32px;
+}
+/* line 18, ../sass/partials/modules/_header.scss */
+.social-networks li {
+  display: inline-block;
+}
+
+/* line 23, ../sass/partials/modules/_header.scss */
+.facebook {
+  text-indent: 9999px;
+  width: 38px;
+  height: 38px;
+  margin: 5px;
+  background-image: url(../img/facebook.png);
+}
+
+/* line 31, ../sass/partials/modules/_header.scss */
+.twitter {
+  text-indent: 9999px;
+  width: 38px;
+  height: 38px;
+  margin: 5px;
+  background-image: url(../img/twitter.png);
+}
+
+/* line 2, ../sass/partials/modules/_right-info.scss */
+.suscription h2 {
+  color: #00a0a9;
+  border-bottom: 3px solid #00a0a9;
+  margin: 100px 0 20px;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+/* line 8, ../sass/partials/modules/_right-info.scss */
+.suscription h3 {
+  font-size: 15px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #000;
+  margin: 5px 0 10px;
+}
+/* line 14, ../sass/partials/modules/_right-info.scss */
+.suscription .text {
+  padding: 15px 0;
+}
+
+/* line 19, ../sass/partials/modules/_right-info.scss */
+.other-news {
+  color: #ff7b1a;
+}
+
+/* line 23, ../sass/partials/modules/_right-info.scss */
+.publicity {
+  padding-top: 30px;
+  margin-left: 30px;
+  width: 300px;
+  height: 220px;
+}
+
+/* line 30, ../sass/partials/modules/_right-info.scss */
+.example-square {
+  width: 300px;
+  height: 220px;
+  background: #999;
+}
+
+/* line 37, ../sass/partials/modules/_right-info.scss */
+.notice p {
+  font-weight: 600;
+}
+
+/* line 42, ../sass/partials/modules/_right-info.scss */
+.other-container {
+  padding: 25px 0 20px;
+  border-bottom: 1px solid #000;
+}
+
+/* line 1, ../sass/partials/modules/_left-info.scss */
+.square {
+  width: 150px;
+  height: 167px;
+  background: #999;
+}
+
+/* line 7, ../sass/partials/modules/_left-info.scss */
+.news-info {
+  float: right;
+  width: 400px;
+}
+
+/* line 12, ../sass/partials/modules/_left-info.scss */
+article {
+  margin-bottom: 15px;
+  padding: 0 0 30px 0;
+  border-bottom: 2px solid #999;
+}
+/* line 16, ../sass/partials/modules/_left-info.scss */
+article h2 {
+  font-size: 20px;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+/* line 21, ../sass/partials/modules/_left-info.scss */
+article p {
+  margin: 0 0 10px 0;
+}
+
+/* line 1, ../sass/partials/modules/_footer.scss */
+footer {
+  height: 100px;
+  text-align: center;
+  background-color: #c0c0c0;
+  top: 1760px;
+}
+/* line 6, ../sass/partials/modules/_footer.scss */
+footer ul {
+  float: left;
+}
+/* line 8, ../sass/partials/modules/_footer.scss */
+footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+  display: inline-block;
+}
+/* line 12, ../sass/partials/modules/_footer.scss */
+footer ul li a {
+  color: #777;
+}
+
+/* line 19, ../sass/partials/modules/_footer.scss */
+.footer-title {
+  color: #777;
+  font-weight: bold;
+}
+
+/* line 24, ../sass/partials/modules/_footer.scss */
+.footer-networks {
+  float: right;
+}
+/* line 26, ../sass/partials/modules/_footer.scss */
+.footer-networks p {
+  display: inline-block;
+}
+
+/* line 31, ../sass/partials/modules/_footer.scss */
+.footer-content {
+  padding-top: 40px;
+  width: 1015px;
+  margin: 0 auto;
+}
